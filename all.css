@@ -348,6 +348,11 @@ body {
   color: #525252;
 }
 
+@media (max-width: 375px) {
+  .card-app .card-body {
+    height: auto;
+  }
+}
 .pagination {
   display: flex;
   flex-direction: row-reverse;
@@ -371,6 +376,12 @@ body {
   background-color: #fff;
 }
 
+@media (max-width: 375px) {
+  .pagination {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 .card-price {
   border: #525252 1px solid;
   border-radius: 16px;
@@ -692,10 +703,10 @@ body {
 }
 
 @media (max-width: 375px) {
-  .content {
+  .banner .content {
     display: none;
   }
-  .content-mobile {
+  .banner .content-mobile {
     display: block;
     color: #fff;
     margin-bottom: 40px;
@@ -761,6 +772,12 @@ body {
     padding: 80px 0;
     border-radius: 20px;
   }
+  .app .search {
+    padding: 20px 60px;
+  }
+  .app .search-icon {
+    left: 28px;
+  }
   .app .app-title {
     font-family: Noto Sans TC;
     font-size: 32px;
@@ -793,6 +810,14 @@ body {
     font-weight: 700;
     border-radius: 16px;
   }
+  .footer .footer-box .footer-links {
+    font-family: Noto Sans TC;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
   .footer .footer-nav-pc {
     display: none !important;
   }
@@ -802,6 +827,12 @@ body {
   }
   .footer .footer-nav-mobile li {
     margin-right: 20px;
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
   }
 }
 .content-price {

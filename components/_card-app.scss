@@ -47,3 +47,11 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+  .card-app {
+    .card-body {
+      height: auto;
+    }
+  }
+}
