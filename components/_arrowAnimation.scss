@@ -1,0 +1,27 @@
+.arrow {
+  overflow: hidden;
+  flex-direction: row-reverse;
+  margin-bottom: 160px;
+}
+.arrow-img {
+  width: 540px;
+  height: 180px;
+  position: relative;
+  top: -200px;
+  animation: move 3s infinite;
+  //   transition-property: position; /*元素要改變的width屬性*/
+  //   transition-duration: 2s; /*動畫持續時間為2秒*/
+  //   transition-timing-function: ease; /*動畫速度曲線為急加速後減速*/
+  //   transition-delay: 0.5s;
+}
+// .arrow-img {
+//   top: 100px;
+// }
+@keyframes move {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 200px;
+  }
+}

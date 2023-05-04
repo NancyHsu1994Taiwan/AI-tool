@@ -1,0 +1,33 @@
+.btn {
+  border: 1px #fff solid;
+  border-radius: 16px;
+  color: #fff;
+  //styleName: TC / Heading06 / Bold;
+  font-family: Noto Sans TC;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 20px 40px;
+  display: block;
+  margin-bottom: 100px;
+  width: 188px;
+}
+
+.start-btn {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  border: 0;
+  color: #fff;
+  p {
+    margin-right: 14px;
+  }
+}
+
+@media (max-width: 975px) {
+  .btn {
+    margin-bottom: 180px;
+  }
+}

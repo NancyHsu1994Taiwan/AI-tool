@@ -1,0 +1,49 @@
+$spacer: 1rem;
+
+.mr-20px {
+  margin-right: 20px;
+}
+
+.mr-1 {
+  margin-right: $spacer * 0.25;
+}
+
+.mr-2 {
+  margin-right: $spacer * 0.5;
+}
+
+.mr-3 {
+  margin-right: $spacer * 1;
+}
+
+.mr-4 {
+  margin-right: $spacer * 1.5;
+}
+
+.mr-5 {
+  margin-right: $spacer * 3;
+}
+
+.mb-1 {
+  margin-bottom: $spacer * 0.25;
+}
+
+.mb-2 {
+  margin-bottom: $spacer * 0.5;
+}
+
+.mb-3 {
+  margin-bottom: $spacer * 1;
+}
+
+.mb-4 {
+  margin-bottom: $spacer * 1.5;
+}
+
+.mb-5 {
+  margin-bottom: $spacer * 3;
+}
+
+.mb-10 {
+  margin-bottom: 80px;
+}

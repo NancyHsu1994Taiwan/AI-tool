@@ -1,0 +1,26 @@
+.nav {
+  padding: 20px 0;
+  border-bottom: #fff 1px solid;
+  margin-bottom: 40px;
+}
+.logo {
+  height: 40px;
+}
+.nav-links {
+  display: flex;
+}
+.burger {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .logo {
+    height: 24px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}

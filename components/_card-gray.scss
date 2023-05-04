@@ -1,0 +1,64 @@
+.card-gray {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 40px;
+  height: 400px;
+  .card-header {
+    // background-color: transparent;
+    .star {
+      // background-color: transparent;
+      margin-bottom: 22px;
+      img {
+        padding-right: 6px;
+      }
+    }
+    p {
+      // background-color: transparent;
+      //styleName: TC / Body / Regular;
+      font-family: Noto Sans TC;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  .card-footer {
+    // background-color: transparent;
+    div {
+      // background-color: transparent;
+      img {
+        height: 48px;
+        width: 48px;
+      }
+      // p {
+      //   background-color: transparent;
+      // }
+      p:first-child {
+        //styleName: TC / Body / Bold;
+        font-family: Noto Sans TC;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      p:nth-child(2) {
+        //styleName: TC / Small / Regular;
+        font-family: Noto Sans TC;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .card-gray {
+    height: 360px;
+    padding: 20px;
+  }
+}

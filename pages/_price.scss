@@ -1,0 +1,139 @@
+.content-price {
+  color: #fff;
+  //styleName: TC / Display02 / Bold;
+  font-family: Noto Sans TC;
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 144px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 80px;
+}
+.content-price-mobile {
+  display: none;
+}
+
+.slogan-price {
+  //styleName: TC / Heading01 / Bold;
+  font-family: Noto Sans TC;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 238px;
+}
+
+.arrow-price {
+  overflow: hidden;
+  flex-direction: row;
+  margin-bottom: 160px;
+}
+.pricing {
+  margin-bottom: 160px;
+  p {
+    padding-bottom: 80px;
+  }
+}
+.rules {
+  margin-bottom: 160px;
+  .rules-title {
+    //styleName: TC / Heading03 / Bold;
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  li {
+    border-bottom: 1px solid #525252;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    p:first-child {
+      //styleName: TC / Heading01 / Bold;
+      font-family: Noto Sans TC;
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 58px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 24px;
+    }
+    p:nth-child(2) {
+      //styleName: TC / Heading03 / Regular;
+      font-family: Noto Sans TC;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 38px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .content-price {
+    display: none;
+  }
+  .content-price-mobile {
+    display: block;
+    color: #fff;
+    //styleName: TC / Heading01 / Bold;
+    margin-bottom: 40px;
+    //styleName: TC / Heading03 / Bold;
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 64px;
+  }
+  .slogan-price {
+    //styleName: TC / Heading04 / Bold;
+    font-family: Noto Sans TC;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .pricing {
+    margin-bottom: 120px;
+    p {
+      padding-bottom: 24px;
+    }
+  }
+  .rules {
+    .rules-title {
+      //styleName: TC / Heading06 / Bold;
+      font-family: Noto Sans TC;
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 48px;
+    }
+    li {
+      p:first-child {
+        //styleName: TC / Heading03 / Bold;
+        font-family: Noto Sans TC;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      p:nth-child(2) {
+        //styleName: TC / Body / Regular;
+        font-family: Noto Sans TC;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  }
+}

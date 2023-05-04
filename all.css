@@ -1,0 +1,1075 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Comfortaa:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  color: #fff;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.nav {
+  padding: 20px 0;
+  border-bottom: #fff 1px solid;
+  margin-bottom: 40px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .logo {
+    height: 24px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+.btn {
+  border: 1px #fff solid;
+  border-radius: 16px;
+  color: #fff;
+  font-family: Noto Sans TC;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 20px 40px;
+  display: block;
+  margin-bottom: 100px;
+  width: 188px;
+}
+
+.start-btn {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  border: 0;
+  color: #fff;
+}
+.start-btn p {
+  margin-right: 14px;
+}
+
+@media (max-width: 975px) {
+  .btn {
+    margin-bottom: 180px;
+  }
+}
+.card {
+  border: 1px solid #525252;
+  border-radius: 16px;
+  padding: 80px 40px;
+}
+.card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 26px;
+}
+.card .card-title {
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.card p {
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card-gray {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 40px;
+  height: 400px;
+}
+.card-gray .card-header .star {
+  margin-bottom: 22px;
+}
+.card-gray .card-header .star img {
+  padding-right: 6px;
+}
+.card-gray .card-header p {
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-gray .card-footer div img {
+  height: 48px;
+  width: 48px;
+}
+.card-gray .card-footer div p:first-child {
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-gray .card-footer div p:nth-child(2) {
+  font-family: Noto Sans TC;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (max-width: 375px) {
+  .card-gray {
+    height: 360px;
+    padding: 20px;
+  }
+}
+.slick-dots li button:before {
+  color: #909090;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+.card-app {
+  border-radius: 16px;
+  border: 1px solid #f2f2f2;
+  overflow: hidden;
+}
+.card-app .card-body .card-body-box {
+  padding: 20px 32px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.card-app .card-body .card-body-box .card-body-font-1 {
+  font-family: Noto Sans TC;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.card-app .card-body .card-body-box .card-body-font-2 {
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-app .card-body .card-body-box .card-body-font-3 {
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.card-app .card-body .card-body-box .card-body-font-4 {
+  font-family: Noto Sans TC;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #525252;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.pagination a {
+  width: 48px;
+  height: 48px;
+  color: #000;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination a:hover {
+  background-color: #000;
+  color: #fff;
+}
+.pagination li:last-child a:hover {
+  background-color: #fff;
+}
+
+.card-price {
+  border: #525252 1px solid;
+  border-radius: 16px;
+  margin-bottom: 0.75rem;
+}
+.card-price .card-body {
+  padding: 20px 32px;
+  height: 254px;
+  border-bottom: 1px solid #525252;
+}
+.card-price .card-body p {
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-price .card-body li {
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-price .card-footer {
+  padding: 20px 32px;
+}
+.card-price .card-footer p {
+  font-family: Noto Sans TC;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 0;
+}
+.card-price .card-footer p span {
+  font-family: Noto Sans TC;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (max-width: 375px) {
+  .card-body {
+    height: 176px;
+  }
+}
+.arrow {
+  overflow: hidden;
+  flex-direction: row-reverse;
+  margin-bottom: 160px;
+}
+
+.arrow-img {
+  width: 540px;
+  height: 180px;
+  position: relative;
+  top: -200px;
+  animation: move 3s infinite;
+}
+
+@keyframes move {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 200px;
+  }
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-right: 12px;
+  padding-left: 12px;
+  overflow: hidden;
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-right: 12px;
+    padding-left: 12px;
+    overflow: hidden;
+  }
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+}
+
+.col {
+  width: 33.33333333%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+.col-2 {
+  width: 66.666666%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+.col-6 {
+  width: 50%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+@media (max-width: 375px) {
+  .col-sm {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+  .col-sm-4 {
+    width: 33.33333%;
+  }
+  .col-sm-8 {
+    width: 66.666666%;
+  }
+}
+.banner .content {
+  color: #fff;
+  font-family: Noto Sans TC;
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 144px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.banner .content-mobile {
+  display: none;
+}
+
+.service {
+  margin-bottom: 160px;
+}
+.service .row:nth-child(1) {
+  margin-bottom: 80px;
+}
+.service .row:nth-child(1) p {
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.service .row:nth-child(1) .col-2 p {
+  font-family: Noto Sans TC;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.corporate p {
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.corporate .slider-corp .mask-1 {
+  position: relative;
+  top: 75px;
+  height: 85px;
+  max-width: 196px;
+  z-index: 10;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+.corporate .slider-corp .mask-2 {
+  position: relative;
+  top: -246px;
+  left: 1099px;
+  height: 85px;
+  max-width: 196px;
+  background-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+.corporate .slider {
+  margin-bottom: 160px;
+}
+.corporate .slider-mobile {
+  display: none;
+}
+.corporate .slider-pc {
+  display: flex;
+  margin-bottom: 160px;
+}
+
+.app {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-radius: 160px;
+  padding: 80px 0;
+}
+.app .app-title {
+  font-family: Noto Sans TC;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.app .app-nav {
+  margin-bottom: 40px;
+}
+.app .search {
+  width: 100%;
+  height: 64px;
+  padding: 20px 80px;
+  border-radius: 16px;
+  background-color: #f2f2f2;
+  border: 0;
+}
+.app .search-icon {
+  display: inline;
+  position: relative;
+  top: 40px;
+  left: 50px;
+  color: #919191;
+}
+.app .filter {
+  color: #000;
+  padding: 20px 40px;
+  border: #f2f2f2 1px solid;
+  border-radius: 16px;
+}
+.app .app-nav-list {
+  display: flex;
+}
+.app .app-nav-list li a {
+  color: #919191;
+  padding: 8px 16px;
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.app .app-nav-list li a:hover {
+  background-color: #f2f2f2;
+  color: #000;
+  font-weight: 700;
+  border-radius: 16px;
+}
+.app .sort {
+  border: #f2f2f2 1px solid;
+}
+.app .sort select {
+  border: 0;
+  padding: 20px 40px;
+  border-radius: 16px;
+}
+.app .app-nav-list-mobile {
+  display: none;
+}
+
+.footer p {
+  font-family: Noto Sans TC;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 158px;
+  margin-bottom: 40px;
+}
+.footer .footer-box {
+  padding: 80px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.footer .footer-box .footer-links {
+  font-family: Noto Sans TC;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer .footer-nav {
+  padding: 32px 0;
+}
+.footer .footer-nav div p {
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-right: 100px;
+}
+.footer .footer-nav div .footer-nav-pc {
+  display: flex;
+}
+.footer .footer-nav div .footer-nav-pc li {
+  margin-right: 20px;
+}
+.footer .footer-nav .back-to-top-btn a p {
+  margin-right: 12px;
+  margin-bottom: 0;
+}
+.footer .footer-nav-mobile {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .content {
+    display: none;
+  }
+  .content-mobile {
+    display: block;
+    color: #fff;
+    margin-bottom: 40px;
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .arrow {
+    flex-direction: row;
+    margin-bottom: 120px;
+  }
+  .service .row:nth-child(1) {
+    margin-bottom: 48px;
+  }
+  .service .row:nth-child(1) p {
+    font-family: Noto Sans TC;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .service .row:nth-child(1) .col-2 p {
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .corporate {
+    margin-bottom: 160px;
+  }
+  .corporate p {
+    font-family: Noto Sans TC;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .corporate .slider {
+    margin-bottom: 48px;
+  }
+  .corporate .slider-corp .mask-1 {
+    width: 80px;
+  }
+  .corporate .slider-corp .mask-2 {
+    width: 80px;
+    top: -100px;
+    left: 195px;
+  }
+  .corporate .slider-pc {
+    display: none;
+  }
+  .corporate .slider-mobile {
+    display: block;
+  }
+  .app {
+    padding: 80px 0;
+    border-radius: 20px;
+  }
+  .app .app-title {
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .app .app-nav-list {
+    display: none;
+  }
+  .app .app-nav-list-mobile {
+    display: flex;
+    margin-bottom: 48px;
+  }
+  .app .app-nav-list-mobile div a {
+    color: #919191 !important;
+    padding: 8px 16px;
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .app .app-nav-list-mobile div a:hover {
+    background-color: #f2f2f2;
+    color: #000 !important;
+    font-weight: 700;
+    border-radius: 16px;
+  }
+  .footer .footer-nav-pc {
+    display: none !important;
+  }
+  .footer .footer-nav-mobile {
+    display: flex;
+    margin-bottom: 32px;
+  }
+  .footer .footer-nav-mobile li {
+    margin-right: 20px;
+  }
+}
+.content-price {
+  color: #fff;
+  font-family: Noto Sans TC;
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 144px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.content-price-mobile {
+  display: none;
+}
+
+.slogan-price {
+  font-family: Noto Sans TC;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 238px;
+}
+
+.arrow-price {
+  overflow: hidden;
+  flex-direction: row;
+  margin-bottom: 160px;
+}
+
+.pricing {
+  margin-bottom: 160px;
+}
+.pricing p {
+  padding-bottom: 80px;
+}
+
+.rules {
+  margin-bottom: 160px;
+}
+.rules .rules-title {
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.rules li {
+  border-bottom: 1px solid #525252;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.rules li p:first-child {
+  font-family: Noto Sans TC;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.rules li p:nth-child(2) {
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (max-width: 375px) {
+  .content-price {
+    display: none;
+  }
+  .content-price-mobile {
+    display: block;
+    color: #fff;
+    margin-bottom: 40px;
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 64px;
+  }
+  .slogan-price {
+    font-family: Noto Sans TC;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .pricing {
+    margin-bottom: 120px;
+  }
+  .pricing p {
+    padding-bottom: 24px;
+  }
+  .rules .rules-title {
+    font-family: Noto Sans TC;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 48px;
+  }
+  .rules li p:first-child {
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .rules li p:nth-child(2) {
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+body {
+  background-color: #000;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-inline-block {
+  display: inline;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.mr-20px {
+  margin-right: 20px;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-3 {
+  margin-right: 1rem;
+}
+
+.mr-4 {
+  margin-right: 1.5rem;
+}
+
+.mr-5 {
+  margin-right: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
+.mb-10 {
+  margin-bottom: 80px;
+}
+
+.font-1 {
+  font-family: Noto Sans TC;
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 144px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.font-2 {
+  font-family: Noto Sans TC;
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.font-3 {
+  font-family: Noto Sans TC;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.font-4 {
+  font-family: Noto Sans TC;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.font-5 {
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.font-6 {
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}/*# sourceMappingURL=all.css.map */

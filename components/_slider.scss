@@ -1,0 +1,14 @@
+// .slick-track {
+//   max-width: 100% !important;
+// }
+
+.slick-dots {
+  li {
+    button:before {
+      color: #909090;
+    }
+  }
+}
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
